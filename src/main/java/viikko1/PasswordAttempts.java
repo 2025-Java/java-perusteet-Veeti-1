@@ -9,8 +9,8 @@ public class PasswordAttempts {
         String fail = "Liian monta virheellistä yritystä.";
         
         
-            for(int i = 0; i<tries.length && i<3; i++){
-            if(tries[i].equals(oikein)){
+            for(int i = 0; i<tries.length && i<3; i++){  //käy syötteet läpi
+            if(tries[i].equals(oikein)){ //tarkistaa onko mikään syötteistä oikea salasana
                 return s;
             }
 
